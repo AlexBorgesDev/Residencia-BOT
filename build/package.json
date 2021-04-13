@@ -1,0 +1,36 @@
+{
+    "name": "residencia-bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./build/src/index.js",
+    "scripts": {
+        "dev": "ts-node ./src/index.ts"
+    },
+    "keywords": [],
+    "bin": "./build/src/index.js",
+    "files": [
+        "./build/**/*"
+    ],
+    "author": "Alex Borges Ramos",
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^4.1.0",
+        "commander": "^7.1.0",
+        "delay": "^5.0.0",
+        "inquirer": "^8.0.0",
+        "puppeteer": "^8.0.0"
+    },
+    "devDependencies": {
+        "@types/inquirer": "^7.3.1",
+        "@typescript-eslint/eslint-plugin": "^4.16.1",
+        "@typescript-eslint/parser": "^4.16.1",
+        "eslint": "^7.21.0",
+        "eslint-config-standard": "^16.0.2",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^4.3.1",
+        "prettier": "^2.2.1",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.2.2"
+    }
+}
